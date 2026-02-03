@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TO-DO</title>
+  </head>
+  <body>
+    <h1 class="headObject">To-do list</h1>
+    <div id="formFillout" class="pageElement">
+      <form>
+          <div id="titleBlock">
+            <label for="taskTitle">Task:</label>
+            <input id="taskTitle" type="text" name="task">
+          </div>
+          <div id="descBlock">
+            <label for="taskDesc">Description:</label>
+            <input id="taskDesc" type="text" name="desc">
+          </div>
+          <div id="submitForm">
+            <button type="submit">Submit Task</button>
+          </div>
+      </form>
+    </div>
+    <div id="taskField" class="pageElement">
+      <h2>Tasks Tracker:</h2>
+      <div id="taskList">
+        
+      </div>
+    </div>
+
+    <script defer src="./index.js"></script>
+  </body>
+</html>

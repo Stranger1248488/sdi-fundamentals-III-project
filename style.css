@@ -1,0 +1,60 @@
+h1.headObject {
+  order: 0;
+  color: green;
+  background-color: black;
+  text-align: center;
+}
+
+html {
+  background-color: skyblue;
+}
+
+body {
+    display: grid;
+  }
+
+
+
+#formFillout  {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  align-items: flex-start;
+  padding: 10px;
+  #titleBlock {
+    font-family: Courier;
+  }
+  #descBlock {
+    font-family: Courier;
+  }
+  #submitForm {
+    font-family: Courier;
+    margin: 30px;
+  }
+}
+
+#taskField {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.taskBlock {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  align-items: flex-start;
+  padding: 10px;
+}
